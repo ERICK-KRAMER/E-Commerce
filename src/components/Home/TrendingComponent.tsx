@@ -1,10 +1,10 @@
 import Carrosel from "./Carrosoel";
 import CardItemCarrosel from "./carItemCarrosel";
 
-const TrendingComponent = () => {
+const TrendingComponent = ({ name }: { name: string }) => {
   return(
     <section>
-      <h1 className="text-3xl pl-5 p-4">Trending Now</h1>
+      <h1 className="text-3xl pl-5 p-4">{ name }</h1>
       <div>
         <Carrosel>
           <div className=" flex gap-3 p-4">
