@@ -1,11 +1,12 @@
-import BanerHomerpage from "../components/banerHomerpage";
+import BanerHomerpage from "../components/Home/banerHomerpage";
 import Header from "../components/Header/header";
+import PopUp from "../components/Home/popup";
 
 export default function HomePage(){
   return (
     <>
       <Header/>
-      <div className="bg-zinc-300 p-1 flex justify-center items-center"> <p>erick kramer</p></div>
+      <PopUp/>
       <BanerHomerpage/>
     </>
   )
