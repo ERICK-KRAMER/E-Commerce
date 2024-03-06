@@ -1,5 +1,5 @@
 // import { UserRound } from "lucide-react";
-import userImage from "../../public/User.png"
+import userImage from "../../../public/User.png"
 
 const UserComponent = () => {
   return(
