@@ -9,7 +9,7 @@ export default function Header() {
     <header className=" h-20 flex bg-white items-center justify-between px-5 text-zinc-950">
       <LogoComponent/>
       <NavigationComponent/>
-      <div className="flex gap-3 items-center max-[1281px]:hidden">
+      <div className="flex gap-8 items-center max-[1281px]:hidden">
         <SearchComponent/>
         <Heart size={23}/>
         <ShoppingCart size={23}/>
