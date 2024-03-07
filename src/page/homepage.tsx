@@ -3,6 +3,7 @@ import Header from "../components/Header/header";
 import PopUp from "../components/Home/popup";
 import TrendingComponent from "../components/Home/TrendingComponent";
 import Category from "../components/Home/category";
+import AboutUS from "../components/Home/AboutUs";
 
 export default function HomePage(){
   return (
@@ -15,6 +16,7 @@ export default function HomePage(){
       <TrendingComponent name={'Trending Offers'}/>
       <BanerHomerpage/>
       <Category/>
+      <AboutUS/>
     </>
   )
 }

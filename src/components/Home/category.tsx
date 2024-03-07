@@ -5,7 +5,7 @@ import item4 from "../../../public/imageItem(5).png";
 
 const Category = () => {
   return (
-    <section className="h-96 m-4 pb-4">
+    <section className="h-96 m-4 pb-4 w-max[1758]:w-full">
       <h1 className="text-lg font-bold p-3">Shop by Categories</h1>
       <div className="grid h-full gap-4 p-4 grid-cols-3">
         <Image Img={ item5 } className="" />
