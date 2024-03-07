@@ -1,10 +1,10 @@
-interface Image {
+interface Img {
   Img: string,
   className?: string
 }
 
-const Baner = ({ Img, className }: Image) => {
+const Image = ({ Img, className }: Img ) => {
   return <img src={ Img } className={ className }/>
 }
 
-export default Baner
+export default Image;

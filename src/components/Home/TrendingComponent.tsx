@@ -1,16 +1,18 @@
-import Carrosel from "./Carrosoel";
-import CardItemCarrosel from "./carItemCarrosel";
+
+import CardItemCarrosel from "./cardItemCarrosel";
+import SlideItems from "./slideItems";
 
 const TrendingComponent = ({ name }: { name: string }) => {
   return(
     <section>
       <h1 className="text-3xl pl-5 p-4">{ name }</h1>
       <div>
-        <Carrosel>
+        <SlideItems>
           <div className=" flex gap-3 p-4">
             <CardItemCarrosel/>
             <CardItemCarrosel/>
             <CardItemCarrosel/>
+            <CardItemCarrosel/> 
             <CardItemCarrosel/>
             <CardItemCarrosel/>
           </div>
@@ -21,7 +23,7 @@ const TrendingComponent = ({ name }: { name: string }) => {
             <CardItemCarrosel/>
             <CardItemCarrosel/>
           </div>
-        </Carrosel>
+        </SlideItems>
       </div>
     </section>
   )
